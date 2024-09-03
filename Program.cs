@@ -24,7 +24,7 @@ namespace Calculadora
             Console.WriteLine("5 - Sair");
             Console.WriteLine("");
             Console.Write("Escolhar uma opção: ");
-            short option = short.Parse(Console.ReadLine());
+            short option = short.Parse(Console.ReadLine() ?? "0");
 
             switch(option)
             {
@@ -54,10 +54,10 @@ namespace Calculadora
             Console.Clear();
 
             Console.Write("Primeiro valor: ");
-            float valor1 = float.Parse(Console.ReadLine());
+            float valor1 = float.Parse(Console.ReadLine() ?? "0");
 
             Console.Write("Primeiro valor: ");
-            float valor2 = float.Parse(Console.ReadLine());
+            float valor2 = float.Parse(Console.ReadLine() ?? "0");
 
             float soma = valor1 + valor2;
 
@@ -73,10 +73,10 @@ namespace Calculadora
             Console.Clear();
 
             Console.Write("Primeiro valor: ");
-            float valor1 = float.Parse(Console.ReadLine());
+            float valor1 = float.Parse(Console.ReadLine() ?? "0");
 
             Console.Write("Segundo valor: ");
-            float valor2 = float.Parse(Console.ReadLine());
+            float valor2 = float.Parse(Console.ReadLine() ?? "0");
 
             float subtracao = valor1 - valor2;
 
@@ -92,10 +92,10 @@ namespace Calculadora
             Console.Clear();
 
             Console.Write("Primeiro valor: ");
-            float valor1 = float.Parse(Console.ReadLine());
+            float valor1 = float.Parse(Console.ReadLine() ?? "0");
 
             Console.Write("Segundo valor: ");
-            float valor2 = float.Parse(Console.ReadLine());
+            float valor2 = float.Parse(Console.ReadLine() ?? "0");
 
             float multiplicacao = valor1 * valor2;
 
@@ -111,10 +111,10 @@ namespace Calculadora
             Console.Clear();
 
             Console.Write("Primeiro valor: ");
-            float valor1 = float.Parse(Console.ReadLine());
+            float valor1 = float.Parse(Console.ReadLine() ?? "0");
 
             Console.Write("Segundo valor: ");
-            float valor2 = float.Parse(Console.ReadLine());
+            float valor2 = float.Parse(Console.ReadLine() ?? "0");
 
             float divisao = valor1 / valor2;
 

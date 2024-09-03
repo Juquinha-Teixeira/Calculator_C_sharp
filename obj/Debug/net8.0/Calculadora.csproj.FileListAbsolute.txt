@@ -12,3 +12,4 @@
 /home/juca/Área de Trabalho/Calculadora/obj/Debug/net8.0/Calculadora.pdb
 /home/juca/Área de Trabalho/Calculadora/obj/Debug/net8.0/Calculadora.genruntimeconfig.cache
 /home/juca/Área de Trabalho/Calculadora/obj/Debug/net8.0/ref/Calculadora.dll
+/home/juca/Área de Trabalho/Calculadora/obj/Debug/net8.0/Calculadora.sourcelink.json
